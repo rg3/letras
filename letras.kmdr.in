@@ -1,0 +1,1474 @@
+<!DOCTYPE UI><UI version="3.0" stdsetdef="1">
+<class>MainForm</class>
+<widget class="Dialog">
+    <property name="name">
+        <cstring>MainForm</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>225</width>
+            <height>303</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Letras</string>
+    </property>
+    <widget class="QLayoutWidget">
+        <property name="name">
+            <cstring>Layout13</cstring>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>225</width>
+                <height>303</height>
+            </rect>
+        </property>
+        <vbox>
+            <property name="name">
+                <cstring>unnamed</cstring>
+            </property>
+            <property name="margin">
+                <number>0</number>
+            </property>
+            <property name="spacing">
+                <number>6</number>
+            </property>
+            <widget class="QLayoutWidget">
+                <property name="name">
+                    <cstring>Layout12</cstring>
+                </property>
+                <hbox>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <property name="margin">
+                        <number>0</number>
+                    </property>
+                    <property name="spacing">
+                        <number>6</number>
+                    </property>
+                    <widget class="QLayoutWidget">
+                        <property name="name">
+                            <cstring>Layout7</cstring>
+                        </property>
+                        <vbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <property name="margin">
+                                <number>0</number>
+                            </property>
+                            <property name="spacing">
+                                <number>6</number>
+                            </property>
+                            <widget class="ComboBox">
+                                <item>
+                                    <property name="text">
+                                        <string>a</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>b</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>c</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>d</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>e</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>f</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>g</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>h</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>i</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>j</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>l</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>m</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>n</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ñ</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>o</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>p</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>q</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>r</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>s</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>t</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>u</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>v</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>w</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>x</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>y</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>z</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>Letra_8</cstring>
+                                </property>
+                            </widget>
+                            <widget class="ComboBox">
+                                <item>
+                                    <property name="text">
+                                        <string>a</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>b</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>c</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>d</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>e</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>f</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>g</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>h</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>i</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>j</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>l</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>m</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>n</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ñ</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>o</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>p</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>q</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>r</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>s</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>t</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>u</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>v</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>w</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>x</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>y</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>z</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>Letra_2</cstring>
+                                </property>
+                            </widget>
+                            <widget class="ComboBox">
+                                <item>
+                                    <property name="text">
+                                        <string>a</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>b</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>c</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>d</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>e</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>f</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>g</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>h</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>i</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>j</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>l</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>m</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>n</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ñ</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>o</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>p</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>q</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>r</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>s</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>t</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>u</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>v</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>w</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>x</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>y</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>z</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>Letra_7</cstring>
+                                </property>
+                            </widget>
+                            <widget class="ComboBox">
+                                <item>
+                                    <property name="text">
+                                        <string>a</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>b</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>c</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>d</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>e</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>f</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>g</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>h</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>i</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>j</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>l</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>m</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>n</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ñ</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>o</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>p</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>q</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>r</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>s</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>t</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>u</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>v</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>w</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>x</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>y</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>z</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>Letra_1</cstring>
+                                </property>
+                            </widget>
+                            <widget class="ComboBox">
+                                <item>
+                                    <property name="text">
+                                        <string>a</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>b</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>c</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>d</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>e</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>f</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>g</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>h</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>i</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>j</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>l</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>m</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>n</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ñ</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>o</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>p</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>q</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>r</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>s</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>t</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>u</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>v</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>w</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>x</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>y</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>z</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>Letra_6</cstring>
+                                </property>
+                            </widget>
+                            <widget class="ComboBox">
+                                <item>
+                                    <property name="text">
+                                        <string>a</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>b</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>c</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>d</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>e</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>f</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>g</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>h</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>i</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>j</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>l</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>m</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>n</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ñ</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>o</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>p</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>q</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>r</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>s</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>t</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>u</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>v</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>w</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>x</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>y</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>z</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>Letra_5</cstring>
+                                </property>
+                            </widget>
+                            <widget class="ComboBox">
+                                <item>
+                                    <property name="text">
+                                        <string>a</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>b</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>c</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>d</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>e</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>f</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>g</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>h</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>i</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>j</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>l</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>m</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>n</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ñ</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>o</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>p</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>q</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>r</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>s</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>t</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>u</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>v</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>w</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>x</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>y</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>z</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>Letra_4</cstring>
+                                </property>
+                            </widget>
+                            <widget class="ComboBox">
+                                <item>
+                                    <property name="text">
+                                        <string>a</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>b</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>c</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>d</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>e</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>f</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>g</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>h</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>i</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>j</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>l</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>m</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>n</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ñ</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>o</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>p</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>q</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>r</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>s</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>t</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>u</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>v</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>w</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>x</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>y</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>z</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>Letra_9</cstring>
+                                </property>
+                            </widget>
+                            <widget class="ComboBox">
+                                <item>
+                                    <property name="text">
+                                        <string>a</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>b</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>c</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>d</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>e</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>f</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>g</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>h</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>i</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>j</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>k</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>l</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>m</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>n</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>ñ</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>o</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>p</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>q</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>r</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>s</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>t</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>u</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>v</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>w</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>x</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>y</string>
+                                    </property>
+                                </item>
+                                <item>
+                                    <property name="text">
+                                        <string>z</string>
+                                    </property>
+                                </item>
+                                <property name="name">
+                                    <cstring>Letra_3</cstring>
+                                </property>
+                            </widget>
+                        </vbox>
+                    </widget>
+                    <widget class="QLayoutWidget">
+                        <property name="name">
+                            <cstring>Layout6</cstring>
+                        </property>
+                        <vbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <property name="margin">
+                                <number>0</number>
+                            </property>
+                            <property name="spacing">
+                                <number>6</number>
+                            </property>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>Layout5</cstring>
+                                </property>
+                                <hbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <property name="margin">
+                                        <number>0</number>
+                                    </property>
+                                    <property name="spacing">
+                                        <number>6</number>
+                                    </property>
+                                    <widget class="Label">
+                                        <property name="name">
+                                            <cstring>MinLengthLabel</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Minimum length:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="SpinBoxInt">
+                                        <property name="name">
+                                            <cstring>LengthBox</cstring>
+                                        </property>
+                                        <property name="maxValue">
+                                            <number>9</number>
+                                        </property>
+                                        <property name="minValue">
+                                            <number>1</number>
+                                        </property>
+                                        <property name="populationText">
+                                            <string>6</string>
+                                        </property>
+                                        <property name="associations" stdset="0">
+                                            <stringlist>
+                                                <string></string>
+                                            </stringlist>
+                                        </property>
+                                    </widget>
+                                </hbox>
+                            </widget>
+                            <widget class="ExecButton">
+                                <property name="name">
+                                    <cstring>FindButton</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>F&amp;ind Words</string>
+                                </property>
+                                <property name="associations" stdset="0">
+                                    <stringlist>
+                                        <string></string>
+                                    </stringlist>
+                                </property>
+                            </widget>
+                            <widget class="TextEdit">
+                                <property name="name">
+                                    <cstring>ResultEdit</cstring>
+                                </property>
+                                <property name="readOnly">
+                                    <bool>true</bool>
+                                </property>
+                                <property name="populationText">
+                                    <string>@exec(@ProgramSelector.text @String.remove(@Letra_1.text @Letra_2.text @Letra_3.text @Letra_4.text @Letra_5.text @Letra_6.text @Letra_7.text @Letra_8.text @Letra_9.text, " ") @LengthBox.text)</string>
+                                </property>
+                                <property name="associations" stdset="0">
+                                    <stringlist>
+                                        <string></string>
+                                    </stringlist>
+                                </property>
+                            </widget>
+                        </vbox>
+                    </widget>
+                </hbox>
+            </widget>
+            <widget class="FileSelector">
+                <property name="name">
+                    <cstring>ProgramSelector</cstring>
+                </property>
+                <property name="populationText">
+                    <string>@CMAKE_INSTALL_PREFIX@/@PROJECT_BIN_DIR@/letras.py</string>
+                </property>
+                <property name="associations" stdset="0">
+                    <stringlist>
+                        <string></string>
+                    </stringlist>
+                </property>
+                <property name="buttonCaption" stdset="0">
+                    <string>&amp;Choose Program</string>
+                </property>
+            </widget>
+        </vbox>
+    </widget>
+</widget>
+<connections>
+    <connection>
+        <sender>FindButton</sender>
+        <signal>clicked()</signal>
+        <receiver>ResultEdit</receiver>
+        <slot>populate()</slot>
+    </connection>
+    <connection>
+        <sender>MainForm</sender>
+        <signal>widgetOpened()</signal>
+        <receiver>LengthBox</receiver>
+        <slot>populate()</slot>
+    </connection>
+    <connection>
+        <sender>MainForm</sender>
+        <signal>widgetOpened()</signal>
+        <receiver>ProgramSelector</receiver>
+        <slot>populate()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>Letra_8</tabstop>
+    <tabstop>Letra_2</tabstop>
+    <tabstop>Letra_7</tabstop>
+    <tabstop>Letra_1</tabstop>
+    <tabstop>Letra_6</tabstop>
+    <tabstop>Letra_5</tabstop>
+    <tabstop>Letra_4</tabstop>
+    <tabstop>Letra_9</tabstop>
+    <tabstop>Letra_3</tabstop>
+    <tabstop>LengthBox</tabstop>
+    <tabstop>FindButton</tabstop>
+    <tabstop>ResultEdit</tabstop>
+</tabstops>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

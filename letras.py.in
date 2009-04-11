@@ -1,0 +1,65 @@
+#!@PYTHON_EXECUTABLE@
+import anydbm
+import sys
+import shelve
+
+terminal_charset = 'utf-8'
+dbname = '@CMAKE_INSTALL_PREFIX@/@PROJECT_DATA_DIR@/palabras.db'
+
+# Print matching words in database
+def print_words(db, unicode_key):
+	key = unicode_key.encode('utf-8')
+	try:
+		values = db[key]
+		for word in values:
+			uword = word.decode('utf-8')
+			print '%s (%s)' % (uword, len(uword))
+	except KeyError:
+		pass
+
+# Builds combinations of a minimum length and run action on each of them
+def build_combinations(elements, min_len, action):
+	if len(elements) < min_len:
+		return
+
+	all = [elements]		# Stores all combinations
+	latest = set([elements])	# Stores combinations from last step
+
+	# Iterate obtaining new combinations derived from the previous ones
+	for x in xrange(len(elements) - min_len):
+		tmp = set()
+		for comb in latest:
+			tmp.update(derived_combs(comb))
+		latest = tmp
+		all.extend(latest)
+
+	# Run action on each combination
+	for comb in all:
+		action(comb)
+
+# Remove each element from the combination to get smaller combinations
+def derived_combs(comb):
+	result = set()
+	for x in xrange(len(comb)):
+		result.add(comb[:x] + comb[(x+1):])
+	return result
+
+# Strings are inmutable, so we need a function to sort their characters.
+def sort_string(chars):
+	seq = list(chars)
+	seq.sort()
+	return u''.join(seq)
+
+# Main program
+try:
+	if len(sys.argv) > 3:
+		raise IndexError
+	letters = sort_string(sys.argv[1].decode(terminal_charset))
+	min_length = int(sys.argv[2])
+	db = shelve.open(dbname, flag='r')
+except (IndexError, ValueError):
+	sys.exit('Usage: %s letters min_length' % sys.argv[0])
+except anydbm.error:
+	sys.exit('Error opening %s' % dbname)
+
+build_combinations(letters, min_length, lambda x: print_words(db, x))

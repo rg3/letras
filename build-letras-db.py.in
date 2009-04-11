@@ -1,0 +1,80 @@
+#!@PYTHON_EXECUTABLE@
+import re
+import shelve
+import sys
+
+txtname = '@CMAKE_INSTALL_PREFIX@/@PROJECT_DATA_DIR@/palabras-utf8-final.txt'
+dbname = '@CMAKE_INSTALL_PREFIX@/@PROJECT_DATA_DIR@/palabras.db'
+alt_exp = re.compile(u'^(.+), ([^-].*)$', re.U) # Alternativo
+suf_exp = re.compile(u'^(.+), -(.+)$', re.U)	# Sufijo opcional
+
+# Caso: panadero, ra
+def alternar(palabra, sufijo):
+	return palabra[:-(len(sufijo))] + sufijo
+
+# Caso: acogedor, -a
+def expandir(palabra, sufijo):
+	return palabra + sufijo
+
+# Ordenar letras de una palabra
+def ordenar(letras):
+	tmp = list(letras)
+	tmp.sort()
+	return u''.join(tmp)
+
+# Leer lista de palabras a cadenas unicode
+try:
+	data = file(txtname, 'r').read()
+except OSError:
+	sys.exit('Error: unable to read data from %s' % txtname)
+palabras = data.split('\n')
+palabras = [x.decode('utf-8') for x in palabras]
+
+# Reemplazar palabras con alternancia o expansion y eliminar duplicados
+lista_final = []
+incluidas = dict()
+for pal in palabras:
+	if len(pal) == 0:
+		continue
+
+	alt_match = alt_exp.match(pal)
+	suf_match = suf_exp.match(pal)
+
+	if alt_match is not None:
+		one, post = (alt_match.group(1), alt_match.group(2))
+		other = alternar(one, post)
+	elif suf_match is not None:
+		one, post = (suf_match.group(1), suf_match.group(2))
+		other = expandir(one, post)
+
+	if alt_match is not None or suf_match is not None:
+		if not incluidas.has_key(one):
+			lista_final.append(one)
+			incluidas[one] = True
+		if not incluidas.has_key(other):
+			lista_final.append(other)
+			incluidas[other] = True
+	else:
+		if not incluidas.has_key(pal):
+			lista_final.append(pal)
+			incluidas[pal] = True
+
+# Ordenar letras y asociar en base de datos, eliminando duplicados
+try:
+	db = shelve.open(dbname, flag='n')
+except OSError:
+	sys.exit('Error: unable to create database: %s' % dbname)
+incluidas = dict()
+for pal in lista_final:
+	if incluidas.has_key(pal):
+		continue
+	incluidas[pal] = True
+	clave = ordenar(pal).encode('utf-8')
+	valor = pal.encode('utf-8')
+	try:
+		tmp = db[clave]
+		tmp.append(valor)
+		db[clave] = tmp
+	except KeyError:
+		db[clave] = [valor]
+db.close()

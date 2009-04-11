@@ -1,0 +1,2 @@
+#!/bin/sh
+exec kmdr-executor @CMAKE_INSTALL_PREFIX@/@PROJECT_DATA_DIR@/letras.kmdr
